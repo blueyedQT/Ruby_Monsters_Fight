@@ -2,7 +2,7 @@ monster1 = { :health => 500 }
 monster2 = { :health => 500 }
 
 for i in 1..5
-	puts "ROUND #{i}"
+	puts "ROUND #{i}:"
 	rand1 = rand(0..100)
 	health1 = monster1[:health]-rand1
 	monster1[:health] = health1
